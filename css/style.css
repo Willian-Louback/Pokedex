@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to top, #FF0043, white);
+}
+main{
+    position: relative;
+    display: inline-block;
+    margin: 3%;
+    max-height: 750px;
+}
+.pokedex{
+    width: 100%;
+    max-height: 600px;
+}
+.gif-pokemom{
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    height: 17.5%;
+}
+.info{
+    position: absolute;
+    top: 54.5%;
+    right: 26%;
+    font-size: clamp(8px, 6vw, 24px);
+    font-weight: 500;
+}
+.input{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 7.8%;
+    width: 73.5%;
+    height: 5%; 
+    top: 65%;
+}
+.envio{
+    font-size: clamp(8px, 5vw, 20px);
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 2%;
+    box-shadow: -2px 2px rgb(36, 36, 36);
+}
+.button{ 
+    position: absolute;
+    top: 82%;
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.voltar{
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: -2px 2px #5d5555, -4px 4px rgb(36, 36, 36);
+    cursor: pointer;
+    background-color: #9a9696;
+    font-size: 100%;
+}
+.voltar:active{
+    animation-delay: 2s;
+    font-size: 90%;
+    box-shadow: inset -1px 1px black, inset -4px 4px #5d5555;
+}
