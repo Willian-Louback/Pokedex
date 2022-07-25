@@ -39,7 +39,7 @@ function shiny(){
     if(id != ""){
         gif.src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/" + id + ".gif";
     } else if (id == ""){
-        alert("Escolha algum pokémom primeiro...")
+        alert("Escolha algum Pokémon primeiro...")
     }
     ativador = "";
 }
