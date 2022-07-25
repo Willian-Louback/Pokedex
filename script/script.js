@@ -17,9 +17,11 @@ form.addEventListener('submit', async(event) => {
     if(link.status != 200){
         gif.src = "";
         document.querySelector(".nome").innerHTML = "Não encontrei :(";
+        id = "";
     } else if (envio.value == ""){
         gif.src = "";
         document.querySelector(".nome").innerHTML = "(Insira algum valor)";
+        id = "";
     }else{
         const data = await link.json();
         id = data.id;
@@ -36,12 +38,9 @@ form.addEventListener('submit', async(event) => {
 function shiny(){
     if(id != ""){
         gif.src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/" + id + ".gif";
-        console.log("Deu certo")
     } else if (id == ""){
         alert("Escolha algum pokémom primeiro...")
-        console.log("else")
     }
-    id = "";
     ativador = "";
 }
 // link shiny charizard https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/6.gif
