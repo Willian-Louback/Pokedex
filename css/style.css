@@ -12,6 +12,8 @@ main{
     display: inline-block;
     margin: 3%;
     max-height: 750px;
+    left: 10px;
+    right: 50%;
 }
 .pokedex{
     width: 100%;
@@ -56,7 +58,7 @@ main{
     display: flex;
     justify-content: center;
 }
-.voltar{
+.shiny{
     height: 100%;
     width: 50%;
     border-radius: 5px;
@@ -65,7 +67,7 @@ main{
     background-color: #9a9696;
     font-size: 100%;
 }
-.voltar:active{
+.shiny:active{
     animation-delay: 2s;
     font-size: 90%;
     box-shadow: inset -1px 1px black, inset -4px 4px #5d5555;
