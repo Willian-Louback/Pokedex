@@ -5,9 +5,13 @@
 }
 body{
     height: 100vh;
-    background: linear-gradient(to top, #FF0043, white);
+    background: linear-gradient(to top, #c7f9fe, rgb(0, 200, 255));
 }
 main{
+    display: flex;
+    justify-content: center;
+}
+.posicionamento{
     position: relative;
     display: inline-block;
     margin: 3%;

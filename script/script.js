@@ -14,6 +14,18 @@ form.addEventListener('submit', async(event) => {
     document.querySelector(".traco").style.display = "none";
     const resposta = document.querySelector('.envio').value.toLowerCase();
     const link = await fetch("https://pokeapi.co/api/v2/pokemon/" + resposta);
+    //Início da zoeira
+if (envio.value == "mitodex22"){
+    const bolsonaro = gif;
+    bolsonaro.style.maxHeight = "107%";
+    bolsonaro.style.maxWidth = "100%";
+    bolsonaro.src = "https://trybun.org.pl/wp-content/uploads/2019/01/xbolsonaro6-1024x726.jpg.pagespeed.ic.b3psIF2KE1.jpg";
+   document.querySelector(".nome").innerHTML = "#MITOO :D";
+    id = "";
+} else{
+    gif.style.maxHeight = "70%";
+    gif.style.maxWidth = "90%";
+    //fim da zoeira
     if(link.status != 200){
         gif.src = "../imagens/Psyduck-confuso-error.png";
         document.querySelector(".nome").innerHTML = "Não encontrei :(";
@@ -39,6 +51,7 @@ form.addEventListener('submit', async(event) => {
             gif.src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/" + id + ".gif";
         }
     }
+}
     envio.value = "";
 });
 function shiny(){
@@ -52,3 +65,4 @@ function shiny(){
 }
 // link shiny charizard https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/6.gif
 //const id = document.querySelector(".numero").innerHTML = data.id;
+//https://media1.tenor.com/images/8abb5d56a61f8d25639b087bb505c412/tenor.gif?itemid=10813661
