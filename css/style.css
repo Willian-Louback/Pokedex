@@ -11,11 +11,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .posicionamento{
     position: relative;
     display: inline-block;
-    margin: 5% 6% 0 6%;
+    margin: 0 6% 0 6%;
     max-height: 750px;
 }
 .pokedex{
