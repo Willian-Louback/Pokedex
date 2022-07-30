@@ -3,10 +3,8 @@
     padding: 0;
 }
 html{
-    background: linear-gradient(to top, #c7f9fe, rgb(0, 200, 255));
-}
-body{
     height: 100vh;
+    background: linear-gradient(to top, #c7f9fe, rgb(0, 200, 255));
 }
 main{
     display: flex;
