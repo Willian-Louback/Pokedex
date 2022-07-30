@@ -1,18 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    
+}
+html{
+    background: linear-gradient(to top, #c7f9fe, rgb(0, 200, 255));
 }
 body{
     height: 100vh;
-    background: linear-gradient(to top, #c7f9fe, rgb(0, 200, 255));
 }
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    max-height: 100vh; /*Consertar isso aqui*/
+    width: 100vw;
 }
 .posicionamento{
     position: relative;
