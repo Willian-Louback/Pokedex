@@ -2,11 +2,8 @@
     margin: 0;
     padding: 0;
 }
-html{
-    height: 100vh;
-    background: linear-gradient(to top, #c7f9fe, rgb(0, 200, 255));
-}
 main{
+    background: linear-gradient(to top, #c7f9fe, rgb(0, 200, 255));
     display: flex;
     justify-content: center;
     align-items: center;
