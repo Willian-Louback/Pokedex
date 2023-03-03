@@ -1,2 +1,2 @@
-👇 Teste agora 👇
+ Pokédex: 
 https://pokedexwi.netlify.app/
